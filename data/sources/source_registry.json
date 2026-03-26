@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "id": "un",
+      "name": "United Nations",
+      "url": "https://www.un.org",
+      "data_types": ["humanitarian", "political"]
+    },
+    {
+      "id": "who",
+      "name": "World Health Organization",
+      "url": "https://www.who.int",
+      "data_types": ["health", "epidemic"]
+    }
+  ]
+}
