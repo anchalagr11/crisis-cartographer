@@ -1,0 +1,40 @@
+{
+  "name": "Darfur Conflict",
+  "crisis_id": "darfur-2003",
+  "start_date": "2003-02-26",
+  "end_date": "2020-08-31",
+  "duration_years": 17.5,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 300000,
+    "high": 400000,
+    "confidence": "high"
+  },
+  "displacement": {
+    "idp": 2500000,
+    "refugees": 400000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["SD", "TD"],
+  "cause_tags": ["ethnic", "political", "land_rights"],
+  "key_events": [
+    {
+      "date": "2003-02-26",
+      "description": "SLA and JEM attack government military installations.",
+      "type": "escalation"
+    },
+    {
+      "date": "2004-04-08",
+      "description": "Humanitarian Ceasefire Agreement signed in N'Djamena.",
+      "type": "negotiation"
+    }
+  ],
+  "resolution_mechanism": "Negotiated (Juba Peace Agreement)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 20000
+  },
+  "data_sources": ["UNAMID", "Human Rights Watch"],
+  "last_updated": "2024-03-27"
+}

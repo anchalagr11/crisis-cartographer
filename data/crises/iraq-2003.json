@@ -1,0 +1,35 @@
+{
+  "name": "Iraq War",
+  "crisis_id": "iraq-2003",
+  "start_date": "2003-03-20",
+  "end_date": "2011-12-18",
+  "duration_years": 8.7,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 150000,
+    "high": 600000,
+    "confidence": "low"
+  },
+  "displacement": {
+    "idp": 2000000,
+    "refugees": 2000000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["IQ", "US", "UK", "AU"],
+  "cause_tags": ["political", "regime_change", "international"],
+  "key_events": [
+    {
+      "date": "2003-03-20",
+      "description": "US-led coalition invades Iraq.",
+      "type": "trigger"
+    }
+  ],
+  "resolution_mechanism": "Military (Coalition withdrawal)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 0
+  },
+  "data_sources": ["Iraq Body Count", "OHCHR"],
+  "last_updated": "2024-03-27"
+}

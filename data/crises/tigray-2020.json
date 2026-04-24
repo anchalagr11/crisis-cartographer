@@ -1,0 +1,40 @@
+{
+  "name": "Tigray War",
+  "crisis_id": "tigray-2020",
+  "start_date": "2020-11-03",
+  "end_date": "2022-11-02",
+  "duration_years": 2.0,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 160000,
+    "high": 600000,
+    "confidence": "medium"
+  },
+  "displacement": {
+    "idp": 2000000,
+    "refugees": 60000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["ET", "ER", "SD"],
+  "cause_tags": ["ethnic", "political", "territorial"],
+  "key_events": [
+    {
+      "date": "2020-11-03",
+      "description": "Conflict begins with attack on Northern Command base.",
+      "type": "trigger"
+    },
+    {
+      "date": "2022-11-02",
+      "description": "Pretoria Agreement signed to end hostilities.",
+      "type": "negotiation"
+    }
+  ],
+  "resolution_mechanism": "Negotiated (Pretoria Agreement)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 0
+  },
+  "data_sources": ["Ghent University", "UNOCHA"],
+  "last_updated": "2024-03-27"
+}

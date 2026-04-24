@@ -1,0 +1,40 @@
+{
+  "name": "South Sudan Civil War",
+  "crisis_id": "south-sudan-2013",
+  "start_date": "2013-12-15",
+  "end_date": "2020-02-22",
+  "duration_years": 6.2,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 383000,
+    "high": 400000,
+    "confidence": "high"
+  },
+  "displacement": {
+    "idp": 2000000,
+    "refugees": 2300000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["SS", "UG", "ET", "SD", "KE"],
+  "cause_tags": ["political", "ethnic", "power_struggle"],
+  "key_events": [
+    {
+      "date": "2013-12-15",
+      "description": "Fighting breaks out between rival factions of the presidential guard.",
+      "type": "trigger"
+    },
+    {
+      "date": "2020-02-22",
+      "description": "Riek Machar sworn in as first vice president, marking end of main conflict.",
+      "type": "negotiation"
+    }
+  ],
+  "resolution_mechanism": "Negotiated (R-ARCSS)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 17000
+  },
+  "data_sources": ["LSHTM", "UNMISS"],
+  "last_updated": "2024-03-27"
+}

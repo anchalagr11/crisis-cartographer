@@ -1,0 +1,40 @@
+{
+  "name": "Bosnian War",
+  "crisis_id": "bosnia-1992",
+  "start_date": "1992-04-06",
+  "end_date": "1995-12-14",
+  "duration_years": 3.7,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 100000,
+    "high": 110000,
+    "confidence": "high"
+  },
+  "displacement": {
+    "idp": 1000000,
+    "refugees": 1200000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["BA"],
+  "cause_tags": ["ethnic", "territorial", "political"],
+  "key_events": [
+    {
+      "date": "1992-04-06",
+      "description": "Siege of Sarajevo begins.",
+      "type": "escalation"
+    },
+    {
+      "date": "1995-12-14",
+      "description": "Dayton Agreement signed.",
+      "type": "negotiation"
+    }
+  ],
+  "resolution_mechanism": "Negotiated (Dayton Agreement)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 38000
+  },
+  "data_sources": ["ICTY", "UNPROFOR"],
+  "last_updated": "2024-03-27"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Colombian Conflict (FARC)",
+  "crisis_id": "colombia-farc",
+  "start_date": "1964-05-27",
+  "end_date": "2016-11-24",
+  "duration_years": 52.5,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 220000,
+    "high": 260000,
+    "confidence": "high"
+  },
+  "displacement": {
+    "idp": 7000000,
+    "refugees": 400000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["CO", "VE", "EC"],
+  "cause_tags": ["political", "ideological", "narcotics"],
+  "key_events": [
+    {
+      "date": "2016-11-24",
+      "description": "Final Peace Agreement signed between Government and FARC-EP.",
+      "type": "negotiation"
+    }
+  ],
+  "resolution_mechanism": "Negotiated (2016 Peace Deal)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": false,
+    "peacekeepers": 0
+  },
+  "data_sources": ["CNMH", "UN Verification Mission"],
+  "last_updated": "2024-03-27"
+}

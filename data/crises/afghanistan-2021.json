@@ -1,0 +1,34 @@
+{
+  "name": "Afghanistan Crisis",
+  "crisis_id": "afghanistan-2021",
+  "start_date": "2021-05-01",
+  "end_date": null,
+  "duration_years": 2.9,
+  "status": "frozen",
+  "casualties_range": {
+    "low": 10000,
+    "high": 20000,
+    "confidence": "medium"
+  },
+  "displacement": {
+    "idp": 3200000,
+    "refugees": 8000000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["AF", "PK", "IR"],
+  "cause_tags": ["political", "religious", "collapse"],
+  "key_events": [
+    {
+      "date": "2021-08-15",
+      "description": "Taliban take control of Kabul.",
+      "type": "trigger"
+    }
+  ],
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 0
+  },
+  "data_sources": ["UNAMA", "UNHCR"],
+  "last_updated": "2024-03-27"
+}

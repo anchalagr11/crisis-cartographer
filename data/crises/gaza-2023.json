@@ -1,0 +1,34 @@
+{
+  "name": "Gaza Crisis",
+  "crisis_id": "gaza-2023",
+  "start_date": "2023-10-07",
+  "end_date": null,
+  "duration_years": 0.5,
+  "status": "active",
+  "casualties_range": {
+    "low": 32000,
+    "high": 35000,
+    "confidence": "medium"
+  },
+  "displacement": {
+    "idp": 1700000,
+    "refugees": 0,
+    "unit": "absolute"
+  },
+  "regions_affected": ["PS", "IL"],
+  "cause_tags": ["territorial", "political", "ethnic"],
+  "key_events": [
+    {
+      "date": "2023-10-07",
+      "description": "Hamas attack on Israel followed by Israeli military operation.",
+      "type": "trigger"
+    }
+  ],
+  "international_response": {
+    "un_involved": true,
+    "sanctions": false,
+    "peacekeepers": 0
+  },
+  "data_sources": ["MoH Gaza", "UNOCHA"],
+  "last_updated": "2024-03-27"
+}

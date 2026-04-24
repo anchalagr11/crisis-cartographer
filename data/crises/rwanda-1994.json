@@ -1,0 +1,35 @@
+{
+  "name": "Rwandan Genocide",
+  "crisis_id": "rwanda-1994",
+  "start_date": "1994-04-07",
+  "end_date": "1994-07-15",
+  "duration_years": 0.27,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 800000,
+    "high": 1000000,
+    "confidence": "high"
+  },
+  "displacement": {
+    "idp": 2000000,
+    "refugees": 2000000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["RW"],
+  "cause_tags": ["ethnic", "political"],
+  "key_events": [
+    {
+      "date": "1994-04-06",
+      "description": "Assassination of President Habyarimana.",
+      "type": "trigger"
+    }
+  ],
+  "resolution_mechanism": "Military (RPF victory)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": false,
+    "peacekeepers": 2500
+  },
+  "data_sources": ["UNAMIR", "Human Rights Watch"],
+  "last_updated": "2024-03-27"
+}

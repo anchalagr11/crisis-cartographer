@@ -1,0 +1,34 @@
+{
+  "name": "Syrian Civil War",
+  "crisis_id": "syria-2011",
+  "start_date": "2011-03-15",
+  "end_date": null,
+  "duration_years": 13.0,
+  "status": "active",
+  "casualties_range": {
+    "low": 500000,
+    "high": 600000,
+    "confidence": "medium"
+  },
+  "displacement": {
+    "idp": 6800000,
+    "refugees": 5600000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["SY", "TR", "LB", "JO"],
+  "cause_tags": ["political", "sectarian", "proxy_war"],
+  "key_events": [
+    {
+      "date": "2011-03-15",
+      "description": "Protests in Daraa escalate into nationwide demonstrations.",
+      "type": "onset"
+    }
+  ],
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 0
+  },
+  "data_sources": ["SOHR", "UNHCR"],
+  "last_updated": "2024-03-27"
+}

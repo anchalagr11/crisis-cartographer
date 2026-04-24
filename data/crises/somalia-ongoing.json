@@ -1,0 +1,34 @@
+{
+  "name": "Somalia Civil War",
+  "crisis_id": "somalia-ongoing",
+  "start_date": "1991-01-26",
+  "end_date": null,
+  "duration_years": 33.2,
+  "status": "active",
+  "casualties_range": {
+    "low": 300000,
+    "high": 500000,
+    "confidence": "low"
+  },
+  "displacement": {
+    "idp": 3800000,
+    "refugees": 1100000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["SO", "KE", "ET"],
+  "cause_tags": ["political", "religious", "clan_warfare"],
+  "key_events": [
+    {
+      "date": "1991-01-26",
+      "description": "Siad Barre is overthrown, leading to collapse of central government.",
+      "type": "trigger"
+    }
+  ],
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 19000
+  },
+  "data_sources": ["ACLED", "UNHCR"],
+  "last_updated": "2024-03-27"
+}

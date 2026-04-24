@@ -1,0 +1,35 @@
+{
+  "name": "Sri Lankan Civil War (Final Phase)",
+  "crisis_id": "srilanka-2009",
+  "start_date": "1983-07-23",
+  "end_date": "2009-05-18",
+  "duration_years": 25.8,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 70000,
+    "high": 100000,
+    "confidence": "medium"
+  },
+  "displacement": {
+    "idp": 300000,
+    "refugees": 150000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["LK"],
+  "cause_tags": ["ethnic", "separatism", "political"],
+  "key_events": [
+    {
+      "date": "2009-05-18",
+      "description": "Defeat of LTTE military high command.",
+      "type": "negotiation"
+    }
+  ],
+  "resolution_mechanism": "Military (Government victory)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": false,
+    "peacekeepers": 0
+  },
+  "data_sources": ["UN Panel of Experts", "OHCHR"],
+  "last_updated": "2024-03-27"
+}

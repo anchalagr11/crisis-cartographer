@@ -1,0 +1,34 @@
+{
+  "name": "DRC M23 Conflict",
+  "crisis_id": "drcongo-ongoing",
+  "start_date": "2022-03-01",
+  "end_date": null,
+  "duration_years": 2.0,
+  "status": "active",
+  "casualties_range": {
+    "low": 10000,
+    "high": 50000,
+    "confidence": "low"
+  },
+  "displacement": {
+    "idp": 6000000,
+    "refugees": 1000000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["CD", "RW", "UG"],
+  "cause_tags": ["ethnic", "territorial", "resources"],
+  "key_events": [
+    {
+      "date": "2022-03-27",
+      "description": "M23 resumes large-scale attacks in North Kivu.",
+      "type": "escalation"
+    }
+  ],
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 15000
+  },
+  "data_sources": ["MONUSCO", "Kivu Security Tracker"],
+  "last_updated": "2024-03-27"
+}

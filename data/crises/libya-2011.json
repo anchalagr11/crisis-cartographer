@@ -1,0 +1,35 @@
+{
+  "name": "Libyan Civil War",
+  "crisis_id": "libya-2011",
+  "start_date": "2011-02-15",
+  "end_date": "2011-10-23",
+  "duration_years": 0.7,
+  "status": "resolved",
+  "casualties_range": {
+    "low": 10000,
+    "high": 30000,
+    "confidence": "medium"
+  },
+  "displacement": {
+    "idp": 400000,
+    "refugees": 100000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["LY", "TN", "EG"],
+  "cause_tags": ["political", "regime_change", "international_intervention"],
+  "key_events": [
+    {
+      "date": "2011-02-15",
+      "description": "Protests begin in Benghazi.",
+      "type": "trigger"
+    }
+  ],
+  "resolution_mechanism": "Military (NATO intervention + Gaddafi death)",
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 0
+  },
+  "data_sources": ["Human Rights Watch", "Amnesty International"],
+  "last_updated": "2024-03-27"
+}

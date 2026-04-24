@@ -1,0 +1,34 @@
+{
+  "name": "Yemeni Civil War",
+  "crisis_id": "yemen-2014",
+  "start_date": "2014-09-19",
+  "end_date": null,
+  "duration_years": 9.5,
+  "status": "active",
+  "casualties_range": {
+    "low": 377000,
+    "high": 400000,
+    "confidence": "medium"
+  },
+  "displacement": {
+    "idp": 4500000,
+    "refugees": 700000,
+    "unit": "absolute"
+  },
+  "regions_affected": ["YE", "SA"],
+  "cause_tags": ["sectarian", "political", "proxy_war"],
+  "key_events": [
+    {
+      "date": "2014-09-21",
+      "description": "Houthis take control of Sana'a.",
+      "type": "trigger"
+    }
+  ],
+  "international_response": {
+    "un_involved": true,
+    "sanctions": true,
+    "peacekeepers": 0
+  },
+  "data_sources": ["UNDP", "ACLED"],
+  "last_updated": "2024-03-27"
+}
