@@ -6,6 +6,7 @@ from fastapi.responses import JSONResponse
 
 router = APIRouter()
 
+
 @router.post("/export/json")
 async def export_json(result: ComparisonResult):
     """Export comparison result as a structured JSON report."""
@@ -13,7 +14,7 @@ async def export_json(result: ComparisonResult):
         report_content = generate_report_json(result)
         return JSONResponse(
             content=json.loads(report_content),
-            headers={"Content-Disposition": "attachment; filename=crisis_report.json"}
+            headers={"Content-Disposition": "attachment; filename=crisis_report.json"},
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

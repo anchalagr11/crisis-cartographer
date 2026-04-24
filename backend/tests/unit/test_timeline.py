@@ -1,6 +1,7 @@
 import pytest
 from backend.app.services import timeline_service
 
+
 def test_calculate_relative_month():
     # Same month
     assert timeline_service.calculate_relative_month("2020-01-01", "2020-01-15") == 0
@@ -11,11 +12,12 @@ def test_calculate_relative_month():
     # Multiple years
     assert timeline_service.calculate_relative_month("2010-01-01", "2012-03-01") == 26
 
+
 def test_group_events_by_stage():
     events = [
         {"type": "trigger", "description": "Start"},
         {"type": "escalation", "description": "More fighting"},
-        {"type": "other", "description": "Random thing"}
+        {"type": "other", "description": "Random thing"},
     ]
     grouped = timeline_service.group_events_by_stage(events)
     assert len(grouped["Trigger"]) == 1

@@ -4,6 +4,7 @@ from ...services import comparison_engine
 
 router = APIRouter()
 
+
 @router.post("/compare", response_model=ComparisonResult)
 async def compare_crises(request: ComparisonRequest):
     try:

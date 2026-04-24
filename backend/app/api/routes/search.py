@@ -6,6 +6,7 @@ from typing import List
 
 router = APIRouter()
 
+
 @router.post("/search", response_model=List[Crisis])
 async def search_crises(query: SearchQuery):
     try:

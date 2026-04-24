@@ -9,9 +9,11 @@ app.include_router(search.router, prefix="/api/v1")
 app.include_router(schema.router, prefix="/api/v1")
 app.include_router(export.router, prefix="/api/v1")
 
+
 @app.get("/")
 async def root():
     return {"message": "Crisis Cartographer API"}
+
 
 @app.get("/health")
 async def health():

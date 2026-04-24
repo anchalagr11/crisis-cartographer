@@ -4,6 +4,7 @@ from backend.app.main import app
 
 client = TestClient(app)
 
+
 def test_get_schema():
     response = client.get("/api/v1/schema")
     assert response.status_code == 200
@@ -13,11 +14,9 @@ def test_get_schema():
     assert "properties" in data
     assert "crisis_id" in data["properties"]
 
+
 def test_search_api():
-    payload = {
-        "query": "Syria",
-        "filters": {"status": "active"}
-    }
+    payload = {"query": "Syria", "filters": {"status": "active"}}
     response = client.post("/api/v1/search", json=payload)
     assert response.status_code == 200
     results = response.json()

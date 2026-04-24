@@ -4,6 +4,7 @@ except ImportError:
     from pydantic import BaseSettings
 from typing import Optional
 
+
 class Settings(BaseSettings):
     database_url: str = "sqlite:///./test.db"
     redis_url: str = "redis://localhost:6379/0"
@@ -14,5 +15,6 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
+
 
 settings = Settings()

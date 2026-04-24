@@ -4,6 +4,7 @@ from backend.app.main import app
 
 client = TestClient(app)
 
+
 def test_compare_api_with_insights():
     payload = {"crisis_ids": ["syria-2011", "yemen-2014"]}
     response = client.post("/api/v1/compare", json=payload)

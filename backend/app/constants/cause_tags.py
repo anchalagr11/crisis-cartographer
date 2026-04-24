@@ -5,5 +5,5 @@ CAUSE_TAGS = [
     "social",
     "military",
     "natural_disaster",
-    "humanitarian"
+    "humanitarian",
 ]

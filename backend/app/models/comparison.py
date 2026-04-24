@@ -1,8 +1,10 @@
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 
+
 class ComparisonRequest(BaseModel):
     crisis_ids: List[str]
+
 
 class ComparisonMetrics(BaseModel):
     tag_similarity: float
@@ -11,6 +13,7 @@ class ComparisonMetrics(BaseModel):
     displacement_ratio: float
     duration_delta_years: float
     geospatial_metrics: Optional[Dict[str, Any]] = None
+
 
 class ComparisonResult(BaseModel):
     crisis_a: str

@@ -3,31 +3,37 @@ from typing import List, Dict, Any, Optional
 from enum import Enum
 from datetime import date
 
+
 class CrisisStatus(str, Enum):
     ACTIVE = "active"
     RESOLVED = "resolved"
     FROZEN = "frozen"
     ESCALATING = "escalating"
 
+
 class CasualtiesRange(BaseModel):
     low: int
     high: int
     confidence: str
+
 
 class Displacement(BaseModel):
     idp: int
     refugees: int
     unit: str = "millions"
 
+
 class KeyEvent(BaseModel):
     date: str  # ISO date string
     description: str
     type: str
 
+
 class InternationalResponse(BaseModel):
     un_involved: bool
     sanctions: bool
     peacekeepers: int
+
 
 class Crisis(BaseModel):
     name: str
