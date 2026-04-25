@@ -5,7 +5,7 @@ const Compare: React.FC = () => {
   return (
     <div>
       <h1>Compare Crises</h1>
-      <ComparisonView />
+      <ComparisonView data={null} />
     </div>
   );
 };

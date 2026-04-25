@@ -21,8 +21,6 @@ const ParallelTimeline: React.FC<ParallelTimelineProps> = ({ crisisA, crisisB, e
   const allEvents = [...eventsA.map(e => ({ ...e, crisis: 'A' })), ...eventsB.map(e => ({ ...e, crisis: 'B' }))]
     .sort((a, b) => useRelative ? a.relative_month - b.relative_month : new Date(a.date).getTime() - new Date(b.date).getTime());
 
-  const maxMonth = Math.max(...allEvents.map(e => e.relative_month), 1);
-
   return (
     <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 mt-8">
       <div className="flex justify-between items-center mb-8">

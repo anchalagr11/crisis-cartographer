@@ -46,9 +46,9 @@ const App: React.FC = () => {
             </h1>
           </div>
           <div className="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-gray-400">
-            <a href="#" className="hover:text-crisis-primary transition-colors">Explorer</a>
-            <a href="#" className="hover:text-crisis-primary transition-colors">Methods</a>
-            <a href="#" className="hover:text-crisis-primary transition-colors">Data</a>
+            <button className="hover:text-crisis-primary transition-colors">Explorer</button>
+            <button className="hover:text-crisis-primary transition-colors">Methods</button>
+            <button className="hover:text-crisis-primary transition-colors">Data</button>
           </div>
         </div>
       </nav>
