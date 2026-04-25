@@ -1,36 +1,40 @@
-# Crisis Cartographer
+# Crisis Cartographer (v1.0)
 
-A full-stack application for crisis analysis and comparison.
+Crisis Cartographer is an intelligence platform designed to normalize and compare global crises using deterministic metrics and LLM-powered narrative insights.
 
-## Project Structure
+## 🚀 Key Features
+- **Deterministic Comparison**: Jaccard similarity and metric ratio engines.
+- **Narrative Intelligence**: GPT-4 driven qualitative analysis with fail-safe fallbacks.
+- **Temporal Mapping**: Synchronized "Relative Time" timelines.
+- **Geospatial Context**: Interactive Leaflet maps with proximity analysis.
+- **Predictive Synthesis**: 12-month probabilistic trajectory forecasting.
+- **Relational Graphs**: Visualizing historical precedents and conflict networks.
 
-- `backend/` - FastAPI backend
-- `frontend/` - React frontend
-- `data/` - Crisis data and schemas
-- `docs/` - Documentation
-- `scripts/` - Utility scripts
-- `tests/` - Test suites
-- `docker/` - Docker configurations
+## 📚 Documentation
+- [Architecture Overview](docs/ARCHITECTURE.md)
+- [API Reference](docs/API_REFERENCE.md)
+- [Data Schema](docs/SCHEMA.md)
+- [Developer/Setup Guide](docs/DEVELOPER_GUIDE.md)
+- [User Guide](docs/USER_GUIDE.md)
+- [Original Technical Plan](docs/plad.md)
 
-## Setup
+## 🛠 Tech Stack
+- **Backend**: FastAPI, Pydantic v2, pytest.
+- **Frontend**: React 18, TypeScript, Tailwind CSS, Leaflet.
+- **Data**: JSON-based flat-file crisis records.
 
-### Backend
-
+## 🧪 Quick Start
 ```bash
+# Backend
 cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
+set PYTHONPATH=.
+python -m uvicorn app.main:app --reload
 
-### Frontend
-
-```bash
+# Frontend
 cd frontend
-npm install
+npm install --legacy-peer-deps
 npm start
 ```
 
-## Development
-
-- Backend runs on http://localhost:8000
-- Frontend runs on http://localhost:3000
+## 📜 License
+MIT License
